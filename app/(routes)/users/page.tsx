@@ -5,7 +5,7 @@ import { getAllUsers } from "@/actions/users/getAllUsers";
 
 const Page = async () => {
   const users = await getAllUsers();
-  
+
   return (
     <div>
       <Heading
